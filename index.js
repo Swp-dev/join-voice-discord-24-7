@@ -17,8 +17,8 @@ const joinVoice = async (bot) => {
       channelId: config.voiceChannelId,
       guildId: config.guildId,
       adapterCreator: guild.voiceAdapterCreator,
-      selfMute: true,
-      selfDeaf: false,
+      selfMute: true, 
+      selfDeaf: false, // change true if you want 
     });
 
     voiceConnections.push({ bot, connection });
